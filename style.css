@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+/* Root variables */
+:root {
+    --linear-gradient1: linear-gradient(to bottom, #ff8465, #f18267, #f9cdc3);
+    /* Linear Gradient 1 */
+    --white: #ffffff;
+    /* White */
+    --font-family: "Cabin", sans-serif;
+    /* Body font */
+}
+
+/* Global reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: var(--font-family);
+}
+
+body {
+    height: 100vh;
+    background-image: url("./assets/Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+    min-width: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 130px;
+    padding: 0 5%;
+    color: var(--white);
+    font-size: 25px;
+}
+
+header .logo {
+    margin-right: auto;
+    width: 380px;
+}
+
+header .logo i {
+    width: 100%;
+    cursor: pointer;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header .menu {
+    display: flex;
+    align-items: center;
+}
+
+header nav .menu li a {
+    position: relative;
+    color: #9a0304;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+header nav .menu li a:hover {
+    color: #ff5a2f;
+}
+
+/* Toggle button for menu */
+header nav #toggle {
+    font-size: 1.5rem;
+    margin-left: 120px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+/* Main content styles */
+.main {
+    padding: 0 5%;
+    color: var(--white);
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.main h1 {
+    text-transform: uppercase;
+    font-size: 4.5rem;
+    font-weight: 500;
+    margin-top: 0px;
+    color: #9a0304;
+}
+
+/* Main paragraph styles */
+
+
+/* Button styles */
+
+
+/* Button hover effect */
+
+
+/* Image positioning for the main section */
+
+/* Individual image styles */
+
+
+/* Responsive styles for small screens */
